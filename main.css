@@ -14,6 +14,8 @@ border-radius: 20px;
   flex: 1 1 30%;
 margin: 20px;
 padding: 20px ;
+border-color: black;
+border-style: double;
 }
 
 img {
@@ -23,4 +25,46 @@ object-fit: cover;
 
 .list-group-item-dark {
   color:yellow;
+}
+.specs {
+  font-size: x-large;
+  font: bolder;
+  font-family: monospace;
+
+}
+
+.list-group-item {
+  font-size: medium;
+  font: bold;
+  font-family: monospace;
+}
+
+.price {
+  font-size: x-large;
+  font: bolder;
+  font-family: monospace ;
+}
+
+.little-specs {
+  font-size: xx-small;
+  font: bolder;
+  font-family: monospace;
+}
+
+.card-title {
+font-size: xx-large;
+font-family: monospace;
+font: bolder;
+}
+
+.card-text {
+font-size: medium;
+font-family: monospace;
+font: bolder;
+}
+
+.card-link {
+  font-size: medium;
+  font: bolder;
+  font-family: monospace;
 }
