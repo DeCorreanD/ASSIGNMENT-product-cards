@@ -20,3 +20,7 @@ img {
 width: 100%;
 object-fit: cover;
 }
+
+.list-group-item-dark {
+  color:yellow;
+}
