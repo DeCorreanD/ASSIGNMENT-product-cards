@@ -5,8 +5,8 @@ body {
 .TheCards {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-border-radius: 20px;
+  border-radius: 20px;
+
 }
 
 .card {
@@ -17,11 +17,14 @@ padding: 20px ;
 border-color: black;
 border-style: double;
 border-radius: 20px;
+min-height: 1000px;
 }
 
 img {
-width: 100%;
+width: 325px;
 object-fit: cover;
+height: 325px;
+overflow: hidden;
 }
 
 .list-group-item-dark {
